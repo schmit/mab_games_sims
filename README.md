@@ -10,6 +10,7 @@ A preprint can be found on arXiv.
 - Python 3
 - [MCSim](https://github.com/schmit/mcsim): small framework for Monte Carlo simulations
 - [Toyplot](https://github.com/sandialabs/toyplot): library used to create plots
+- [Statsmodels](http://statsmodels.sourceforge.net/): statistics library used to fit LOWESS
 
 
 # Notebooks
@@ -25,3 +26,8 @@ A preprint can be found on arXiv.
     It reads the pickle files from the *run simulations to disk notebook*,
     so run that first.
 
+
+# Questions
+
+If you have any questions about the code or simulations, or have trouble getting things to work,
+please open an Issue.
