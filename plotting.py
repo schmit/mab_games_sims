@@ -12,7 +12,7 @@ def smooth_plot(x, y, axes, frac=0.1, **kwargs):
     axes.plot(lowess[:, 0], lowess[:, 1])
 
 
-def scatter_evo_population(outcomes, axes, frac=0.1, **kwargs):
+def scatter_evo_population(outcomes, axes, **kwargs):
     pop_profs = np.array(outcomes["pop_profile"]).T
     narms, steps = pop_profs.shape
 
@@ -20,7 +20,7 @@ def scatter_evo_population(outcomes, axes, frac=0.1, **kwargs):
         axes.scatterplot(row, **kwargs)
 
 
-def plot_evo_population(outcomes, axes, frac):
+def plot_evo_population(outcomes, axes, frac=0.1):
     pop_profs = np.array(outcomes["pop_profile"]).T
     narms, steps = pop_profs.shape
 
