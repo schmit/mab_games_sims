@@ -1,4 +1,5 @@
 import pickle
+import time
 
 def dump(obj, fname):
     """
