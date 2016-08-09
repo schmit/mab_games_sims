@@ -24,10 +24,11 @@ High level code to run simulations and plot results are Jupyter notebooks:
     and saves the outcomes as pickle objects.
     Before using this notebook, run `setup.sh` to create subdirectories used to store simulations and plots.
 - `plots`: this notebook recreates the plots used in the paper.
-    It reads the pickle files from the `run_sims_disk`, so run that first.
+    It reads the pickle files created by the `run_sims_disk` notebook, so run that first.
 
 
 # Questions
 
 If you have any questions about the code or simulations, or have trouble getting things to work,
-please open an Issue.
+please open an [issue](https://github.com/schmit/mab_games_sims/issues).
+
